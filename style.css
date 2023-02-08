@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.MoviesList{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100%;
+margin: 0 auto;
+min-height: 80vh;
+}
+h1{
+    font-size: 20px;
+}
+.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#Search{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.input-field {
+    width: 30%;
+    display: flex;
+}
+.progress{
+    margin-top: 230px;
+}
